@@ -1,0 +1,9 @@
+# ignorar
+venv-test-api/
+*local
+
+*.pyc
+__pycache_/
+db.sqlite3
+
+.env
