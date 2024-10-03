@@ -46,3 +46,16 @@ class CarritoItem(models.Model):
     def __str__(self):
         return f"Cantidad {self.cantidad} x {self.producto.nombre}"
     
+# Pedido
+class Pedido(models.Model):
+    usuario = models.ForeignKey(User, on_delete=models.CASCADE)
+    producto = models.ForeignKey(Producto, on_delete=models.CASCADE)
+    cantidad = models.IntegerField()
+    fecha = models.DateTimeField(auto_now_add=True)
+    recogido = models.BooleanField(default=False)
+    
+    def __str__(self):
+        return f"Pedido de {self.cantidad} x {self.producto.nombre} el {self.fecha}"
+    
+
+    
