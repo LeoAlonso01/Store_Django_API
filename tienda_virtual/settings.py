@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xmv*cfdb*zjp%zmh+#thxctjm+5se7=np-$idwg5f!m!kz-i&8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["store-app-morelia-ath3bvabgqgzcnfg.mexicocentral-01.azurewebsites.net/", "localhost"]
+ALLOWED_HOSTS = ["store-app-morelia-ath3bvabgqgzcnfg.mexicocentral-01.azurewebsites.net", "localhost"]
 
 
 # Application definition
