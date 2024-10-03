@@ -16,7 +16,7 @@ class Producto(models.Model):
     PRODUCTO = 'P'
     SERVICIO = 'S'
     TIPO_CHOICE = [
-        (PRODUCTO, 'Producto')
+        (PRODUCTO, 'Producto'),
         (SERVICIO, 'Servicio')
     ]
     
